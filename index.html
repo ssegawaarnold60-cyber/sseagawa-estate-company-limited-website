@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Ssegawa Estate Company — titled land in Wakiso, Namayumba and Gobero. Free site inspections and flexible payment arrangements.">
+  <meta name="theme-color" content="#14372b">
+  <title>Ssegawa Estate Company | Find Land. Build Your Future.</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#"><span class="brand-mark">SE</span><span>SSEGAWA <small>ESTATE COMPANY</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    <nav id="mainNav"><a href="#properties">Properties</a><a href="#about">About us</a><a href="#how">Payment plan</a><a href="#contact">Contact</a><a class="nav-button" href="#contact">Make an inquiry</a><a class="admin-nav" href="admin.html">Staff login</a></nav>
+  </div>
+</header>
+<main>
+<section class="hero"><div class="container hero-content">
+  <p class="eyebrow">LAND OWNERSHIP • WAKISO, UGANDA</p>
+  <h1>Find land.<br><em>Build your future.</em></h1>
+  <p class="hero-copy">Explore land opportunities in Wakiso, Namayumba and Gobero. We make it easier to take the next step with free site inspections and clear conversations about payment.</p>
+  <div class="hero-actions"><a class="btn btn-gold" href="#properties">Explore available land</a><a class="btn btn-outline" href="https://wa.me/256708759877" target="_blank" rel="noopener">Talk to our team</a></div>
+  <div class="hero-points"><span>✓ Titled land</span><span>✓ Free inspections</span><span>✓ Flexible payment discussions</span></div>
+</div></section>
+<section class="trust-bar"><div class="container trust-grid"><div><strong>50 × 100</strong><span>Starting plot size</span></div><div><strong>100%</strong><span>Land advertised as titled</span></div><div><strong>FREE</strong><span>Site inspections</span></div><div><strong>70 / 30</strong><span>Installment option by agreement</span></div></div></section>
+<section class="section" id="properties"><div class="container">
+  <div class="section-heading"><div><p class="eyebrow">FIND YOUR PLOT</p><h2>Featured properties</h2></div><p>Browse the current listings. Contact us to confirm availability, exact boundaries, plot sizes and viewing arrangements.</p></div>
+  <div id="propertyGrid" class="property-grid"><div class="loading-card">Loading available properties…</div></div>
+  <p class="small-note">Prices and availability may change. Please confirm all details with our team and independently verify title and ownership documents before making payment.</p>
+</div></section>
+<section class="inspection"><div class="container inspection-inner"><div><p class="eyebrow light">SEE IT BEFORE YOU BUY</p><h2>Book a free site inspection.</h2><p>Visit the land, ask questions and understand the location before making a decision. Speak to our team to arrange a convenient inspection.</p></div><a class="btn btn-gold" href="https://wa.me/256708759877?text=Hello%20Ssegawa%20Estate%20Company%2C%20I%20would%20like%20to%20arrange%20a%20free%20site%20inspection." target="_blank" rel="noopener">Arrange inspection</a></div></section>
+<section class="section about-section" id="about"><div class="container about-grid">
+  <div class="about-photo"><img src="assets/kibira-standing.jpg" alt="Ssegawa Estate Company representative"><div class="photo-caption"><strong>Kibira Arnold Ssegawa</strong><span>Company owner</span></div></div>
+  <div><p class="eyebrow">ABOUT SSEGAWA ESTATE COMPANY</p><h2>Land decisions deserve clarity and confidence.</h2><p>Ssegawa Estate Company helps customers explore land opportunities around Wakiso and along the Kampala–Hoima Road corridor. We welcome customers to our office to discuss available plots, inspection arrangements and payment options.</p>
+    <div class="feature-list"><div><b>01</b><span><strong>Titled land</strong><small>Our listings are presented as titled. Ask to inspect and verify the relevant documents for the specific plot.</small></span></div><div><b>02</b><span><strong>Flexible discussions</strong><small>Eligible buyers can discuss the 70% initial payment and 30% balance arrangement at our office.</small></span></div><div><b>03</b><span><strong>Free inspections</strong><small>Arrange a visit and assess the property before deciding.</small></span></div></div>
+  </div>
+</div></section>
+<section class="section payment-section" id="how"><div class="container"><p class="eyebrow">FLEXIBLE PAYMENT OPTION</p><h2>Talk to us about installments.</h2><p class="section-intro">For customers who qualify and agree to the terms at our office, the proposed arrangement is:</p>
+  <div class="payment-grid"><article><span>INITIAL PAYMENT</span><strong>70%</strong><p>Pay 70% of the agreed purchase price as the initial payment.</p></article><article><span>REMAINING BALANCE</span><strong>30%</strong><p>Clear the remaining 30% within three months, according to the written agreement.</p></article></div>
+  <p class="small-note">Installment arrangements, discounts and eligibility are subject to discussion and a written agreement at our office. Do not rely on verbal promises alone.</p>
+</div></section>
+<section class="section contact-section" id="contact"><div class="container contact-grid">
+  <div class="contact-info"><p class="eyebrow light">LET'S TALK</p><h2>Have a question or want to view land?</h2><p>Send an inquiry and our team will get back to you. You can also call or visit our office.</p>
+    <div class="contact-line"><span>CALL / WHATSAPP</span><a href="tel:+256708759877">0708 759 877</a></div>
+    <div class="contact-line"><span>EMAIL</span><a href="mailto:kibiraarnold8@gamil.com">kibiraarnold8@gamil.com</a></div>
+    <div class="contact-line"><span>OFFICE</span><p>Galuleeba Building, opposite Wakiso Town Park, along Kampala–Hoima Road, Wakiso, Uganda.</p></div>
+    <div class="contact-line"><span>TIKTOK</span><a href="https://www.tiktok.com/@kibiraarnold4" target="_blank" rel="noopener">@kibiraarnold4</a></div>
+  </div>
+  <form id="inquiryForm" class="inquiry-form"><h3>Send an inquiry</h3><p>Complete the form and your inquiry will be sent to our team.</p>
+    <label for="customerName">Your name</label><input id="customerName" name="name" required maxlength="100" placeholder="Enter your name">
+    <label for="customerPhone">Phone number</label><input id="customerPhone" name="phone" required maxlength="30" placeholder="e.g. 07XXXXXXXX">
+    <label for="customerEmail">Email (optional)</label><input id="customerEmail" name="email" type="email" maxlength="150" placeholder="you@example.com">
+    <label for="interest">Property of interest</label><select id="interest" name="property_id"><option value="">General inquiry</option></select>
+    <label for="customerMessage">Your message</label><textarea id="customerMessage" name="message" rows="4" maxlength="2000" placeholder="Tell us what you would like to know"></textarea>
+    <button class="btn btn-gold full-width" type="submit">Submit inquiry</button><p class="form-status" id="formStatus" aria-live="polite"></p>
+  </form>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#"><span class="brand-mark">SE</span><span>SSEGAWA <small>ESTATE COMPANY</small></span></a><p>Find land. Build your future.</p><small>© <span id="year"></span> Ssegawa Estate Company. All rights reserved.</small></div></footer>
+<a class="whatsapp-float" href="https://wa.me/256708759877" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">☏</a>
+<script src="config.js"></script><script src="app.js"></script>
+</body></html>
